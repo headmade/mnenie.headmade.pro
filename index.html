@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://mnenie.headmade.pro/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ИС «Мнение» — автоматизация общественных обсуждений</title>
+<meta name="description" content="Информационная система органов исполнительной власти, обеспечивающая автоматизацию процедур по проведению общественных обсуждений.">
+<meta property="og:title" content="ИС «Мнение»">
+<meta property="og:description" content="Автоматизация общественных обсуждений в электронной форме.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&amp;display=swap">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#0D4CD3}a:hover{color:#0B40B3}
+</style>
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div style="font-family: 'Lato', 'Carlito', Arial, sans-serif; color: #0B1F33; font-size: 16px; line-height: 24px; background: #FFFFFF">
+
+<header style="background: #FFFFFF; border-bottom: 1px solid #E3E8EE; padding: 0 24px">
+<div style="max-width: 1200px; margin: 0 auto; min-height: 72px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 0; box-sizing: border-box">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #0B1F33">
+<span style="width: 40px; height: 40px; border-radius: 10px; background: #0D4CD3; display: flex; align-items: center; justify-content: center">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"></path><path d="M8 9h8M8 12h5"></path></svg>
+</span>
+<span style="font-size: 20px; font-weight: 700; line-height: 24px">ИС «Мнение»</span>
+</a>
+<nav aria-label="Разделы страницы" style="display: flex; flex-wrap: wrap; gap: 4px 24px; font-size: 16px">
+<a href="#info" style="text-decoration: none; padding: 10px 0">Описание</a>
+<a href="#modules" style="text-decoration: none; padding: 10px 0">Состав системы</a>
+<a href="#tech" style="text-decoration: none; padding: 10px 0">Технологии</a>
+<a href="#help" style="text-decoration: none; padding: 10px 0">О разработчике</a>
+</nav>
+</div>
+</header>
+
+<section id="top" style="background: #EDF2FE; padding: 72px 24px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 48px">
+<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<p style="margin: 0; font-size: 14px; line-height: 20px; color: #66727F; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase">Информационная система органов исполнительной власти</p>
+<h1 style="margin: 0; font-size: clamp(32px, 4vw, 48px); line-height: 1.17; font-weight: 700">Автоматизация общественных обсуждений в&#160;электронной форме</h1>
+<p style="margin: 0; font-size: 20px; line-height: 28px; color: #0B1F33; max-width: 600px">Полный жизненный цикл обсуждения общественно значимых вопросов и проектов решений — от оповещения жителей до публикации результатов — с соблюдением требований законодательства.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px">
+<a href="#info" style="display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px; border-radius: 8px; background: #0D4CD3; color: #FFFFFF; text-decoration: none; font-weight: 700; box-sizing: border-box">Подробнее о системе</a>
+</div>
+</div>
+<div style="flex: 1 1 360px; min-width: 0; background: #FFFFFF; border-radius: 16px; padding: 32px; box-shadow: 0 4px 24px rgba(11, 31, 51, 0.08); box-sizing: border-box">
+<p style="margin: 0 0 20px; font-size: 18px; line-height: 24px; font-weight: 700">Жизненный цикл обсуждения</p>
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 16px">
+<li style="display: flex; align-items: center; gap: 16px"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #0D4CD3; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">1</span><span>Оповещение жителей</span></li>
+<li style="display: flex; align-items: center; gap: 16px"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #0D4CD3; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">2</span><span>Приём замечаний и предложений</span></li>
+<li style="display: flex; align-items: center; gap: 16px"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #0D4CD3; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">3</span><span>Регистрация и рассмотрение</span></li>
+<li style="display: flex; align-items: center; gap: 16px"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #0D4CD3; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">4</span><span>Формирование протокола</span></li>
+<li style="display: flex; align-items: center; gap: 16px"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #0D4CD3; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">5</span><span>Заключение о результатах</span></li>
+<li style="display: flex; align-items: center; gap: 16px"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #0D4CD3; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">6</span><span>Публикация итогов</span></li>
+</ol>
+</div>
+</div>
+</section>
+
+<section id="info" style="padding: 80px 24px; background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 800px">
+<h2 style="margin: 0; font-size: clamp(26px, 3vw, 32px); line-height: 1.25; font-weight: 700">Что такое информационная система «Мнение»?</h2>
+<p style="margin: 0; color: #66727F; font-size: 18px; line-height: 28px">Система органов исполнительной власти, обеспечивающая автоматизацию процедур по проведению общественных обсуждений. Предназначена для органов местного самоуправления, муниципальных организаций и иных органов, осуществляющих публичные полномочия, с участием представителей граждан и общественных объединений.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+<div style="background: #F5F7FA; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"></path><path d="M21 3v5h-5"></path></svg></span>
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Полный цикл обсуждения</h3>
+<p style="margin: 0; color: #66727F">Весь процесс — от заблаговременного оповещения жителей до опубликования результатов — проходит в электронной форме в одной системе.</p>
+</div>
+<div style="background: #F5F7FA; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"></path><path d="M7 15l4-4 3 3 5-6"></path></svg></span>
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Контроль в единой точке</h3>
+<p style="margin: 0; color: #66727F">Мониторинг и контроль всех процессов проведения общественных обсуждений с соблюдением требований законодательства и подзаконных актов.</p>
+</div>
+<div style="background: #F5F7FA; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5"></path><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5"></path></svg></span>
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Интеграция с госсистемами</h3>
+<p style="margin: 0; color: #66727F">СМЭВ, ЕСИА, ГИС ФНС, геоинформационные системы и портал «Госуслуги». Реестры доступны другим ИС по современному API.</p>
+</div>
+<div style="background: #F5F7FA; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg></span>
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Отечественная платформа</h3>
+<p style="margin: 0; color: #66727F">Только открытые технологии без проприетарных решений. Система сертифицируется для работы в среде ОС Astra Linux.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding: 80px 24px; background: #F5F7FA">
+<div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border-radius: 16px; padding: 40px; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-size: clamp(24px, 2.5vw, 28px); line-height: 1.25; font-weight: 700">Задачи, которые решает система</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px">
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Проведение общественных обсуждений</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Снижение коррупции и коррупционных рисков</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Идентификация всех участников обсуждений</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Повышение прозрачности и управляемости процессов</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Повышение эффективности процессов</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Оптимизация за счёт полной или частичной автоматизации</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Надёжность и безопасность процессов</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Повышение удовлетворённости и лояльности участников</span></li>
+</ul>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 40px; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-size: clamp(24px, 2.5vw, 28px); line-height: 1.25; font-weight: 700">Ключевые особенности</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px">
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Минимизация влияния человеческого фактора</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Полная автоматизация типовых процессов, в том числе с использованием smart-контрактов</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>«Сквозные» цифровые платформы и отечественная инфраструктура сбора, обработки, хранения и предоставления данных</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Нейротехнологии и искусственный интеллект для принятия решений</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Технология распределённых реестров</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Информационная, технологическая и стратегическая безопасность</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Полный контроль над процедурами проведения обсуждений</span></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section style="padding: 80px 24px; background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<h2 style="margin: 0; font-size: clamp(26px, 3vw, 32px); line-height: 1.25; font-weight: 700">Основные преимущества</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px 24px">
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px">
+<span style="width: 80px; height: 80px; border-radius: 50%; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 4-6 8-6s8 2 8 6"></path></svg></span>
+<h3 style="margin: 0; font-size: 18px; line-height: 24px; font-weight: 700">Вход через Госуслуги (ЕСИА)</h3>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px">
+<span style="width: 80px; height: 80px; border-radius: 50%; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"></path><path d="M13 7l4 4"></path></svg></span>
+<h3 style="margin: 0; font-size: 18px; line-height: 24px; font-weight: 700">Юридически значимая электронная подпись</h3>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px">
+<span style="width: 80px; height: 80px; border-radius: 50%; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"></path><path d="M10 21h4"></path></svg></span>
+<h3 style="margin: 0; font-size: 18px; line-height: 24px; font-weight: 700">Уведомления о сроках и действиях</h3>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px">
+<span style="width: 80px; height: 80px; border-radius: 50%; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg></span>
+<h3 style="margin: 0; font-size: 18px; line-height: 24px; font-weight: 700">Быстрый поиск, фильтры и сортировка</h3>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px">
+<span style="width: 80px; height: 80px; border-radius: 50%; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"></path><path d="M9 13h6M9 17h6M9 9h3"></path></svg></span>
+<h3 style="margin: 0; font-size: 18px; line-height: 24px; font-weight: 700">Отчёты и аналитика</h3>
+</div>
+</div>
+</div>
+</section>
+
+<section id="modules" style="padding: 80px 24px; background: #F5F7FA">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 800px">
+<h2 style="margin: 0; font-size: clamp(26px, 3vw, 32px); line-height: 1.25; font-weight: 700">Состав системы: базовый функционал</h2>
+<p style="margin: 0; color: #66727F; font-size: 18px; line-height: 28px">Эффективная автоматизация процесса проведения общественных обсуждений достигается благодаря широким функциональным возможностям системы.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 4-6 8-6s8 2 8 6"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">Идентификация и аутентификация</h3>
+<p style="margin: 0; color: #66727F">Идентификация пользователей системы осуществляется при помощи ЕСИА.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"></ellipse><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"></path><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">Хранилище данных</h3>
+<p style="margin: 0; color: #66727F">Хранит данные об обсуждениях и метаданные компонентов. Обеспечивает оперативный доступ, резервирование и регистрацию всех изменений с хранением в неизменном виде.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h6l2 2h10v11H3z"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">Хранилище файлов</h3>
+<p style="margin: 0; color: #66727F">Файлы обсуждений хранятся на открытой S3-совместимой платформе: быстрый доступ, надёжность и низкие издержки на большие объёмы.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"></path><path d="M14 3v5h5"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">Хранилище документов</h3>
+<p style="margin: 0; color: #66727F">Версионное хранение прикреплённых документов и документов, формируемых в процессе работы системы.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2z"></path><path d="M4 19V5"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">База знаний</h3>
+<p style="margin: 0; color: #66727F">Интерфейс управления и принятия решений по замечаниям и предложениям, протоколам и результатам обсуждений.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">Сервис поиска</h3>
+<p style="margin: 0; color: #66727F">Быстрый поиск по основным реквизитам документа в поисковой строке, а также поиск с фильтрами и сортировками.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"></path><path d="M10 21h4"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">Служба уведомлений</h3>
+<p style="margin: 0; color: #66727F">Уведомляет участников в предусмотренных законом случаях, а организаторов и сотрудников исполнительной власти — о действиях, чтобы не превысить установленные сроки.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13"></path><path d="M3 6h.01M3 12h.01M3 18h.01"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">Реестры</h3>
+<ul style="margin: 0; padding-left: 20px; color: #66727F">
+<li>Реестр общественных обсуждений</li>
+<li>Реестр участников</li>
+<li>Реестр организаторов</li>
+<li>Реестр протоколов</li>
+</ul>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="width: 48px; height: 48px; border-radius: 12px; background: #EDF2FE; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5"></path><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5"></path></svg></span>
+<h3 style="margin: 4px 0 0; font-size: 20px; line-height: 28px; font-weight: 700">Интеграция со смежными ИС</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="padding: 4px 12px; border-radius: 16px; background: #EDF2FE; color: #0D4CD3; font-size: 14px; line-height: 20px">ФНС: ФИАС</span>
+<span style="padding: 4px 12px; border-radius: 16px; background: #EDF2FE; color: #0D4CD3; font-size: 14px; line-height: 20px">ФНС: ЕГРЮЛ</span>
+<span style="padding: 4px 12px; border-radius: 16px; background: #EDF2FE; color: #0D4CD3; font-size: 14px; line-height: 20px">Росреестр: ЕГРН</span>
+<span style="padding: 4px 12px; border-radius: 16px; background: #EDF2FE; color: #0D4CD3; font-size: 14px; line-height: 20px">СМЭВ</span>
+<span style="padding: 4px 12px; border-radius: 16px; background: #EDF2FE; color: #0D4CD3; font-size: 14px; line-height: 20px">ЕСИА</span>
+<span style="padding: 4px 12px; border-radius: 16px; background: #EDF2FE; color: #0D4CD3; font-size: 14px; line-height: 20px">Госуслуги</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding: 80px 24px; background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 800px">
+<h2 style="margin: 0; font-size: clamp(26px, 3vw, 32px); line-height: 1.25; font-weight: 700">Личные кабинеты</h2>
+<p style="margin: 0; color: #66727F; font-size: 18px; line-height: 28px">Для каждой роли — свой интерфейс с набором функций, необходимых на её этапе обсуждения.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<div style="border: 1px solid #E3E8EE; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 14px; line-height: 20px; font-weight: 700; color: #0D4CD3; letter-spacing: 0.04em; text-transform: uppercase">Участник</p>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px">
+<li>Идентификация участника</li>
+<li>Внесение предложений и замечаний к обсуждаемому проекту</li>
+<li>Проверка полноты и достоверности отражения своих предложений и замечаний</li>
+<li>Формирование выписки из протокола обсуждения</li>
+</ul>
+</div>
+<div style="border: 1px solid #E3E8EE; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 14px; line-height: 20px; font-weight: 700; color: #0D4CD3; letter-spacing: 0.04em; text-transform: uppercase">Сотрудник исполнительной власти</p>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px">
+<li>Рассмотрение протокола общественного обсуждения</li>
+<li>Направление замечаний и комментариев к протоколу</li>
+</ul>
+</div>
+<div style="border: 1px solid #E3E8EE; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 14px; line-height: 20px; font-weight: 700; color: #0D4CD3; letter-spacing: 0.04em; text-transform: uppercase">Администратор</p>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px">
+<li>Управление правами доступа и иными разделами администрирования системы</li>
+</ul>
+</div>
+</div>
+<div style="border: 1px solid #E3E8EE; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 14px; line-height: 20px; font-weight: 700; color: #0D4CD3; letter-spacing: 0.04em; text-transform: uppercase">Организатор</p>
+<ul style="margin: 0; padding-left: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 8px 48px">
+<li>Формирование и публикация информации о предстоящем обсуждении</li>
+<li>Внесение замечаний и предложений, принятых в бумажном виде и в книге (журнале) учёта посетителей</li>
+<li>Приём замечаний и предложений из личного кабинета участника</li>
+<li>Регистрация полученных предложений и замечаний</li>
+<li>Ведение реестра замечаний и предложений</li>
+<li>Рассмотрение полученных предложений и замечаний</li>
+<li>Формирование протокола общественного обсуждения</li>
+<li>Просмотр замечаний к протоколу от сотрудника исполнительной власти</li>
+<li>Редактирование протокола</li>
+<li>Подготовка заключения о результатах обсуждения</li>
+<li>Публикация итогов и количества участников в открытой части системы и во внешних информационных системах</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section style="padding: 80px 24px; background: #EDF2FE">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 800px">
+<h2 style="margin: 0; font-size: clamp(26px, 3vw, 32px); line-height: 1.25; font-weight: 700">Поддержка электронной подписи</h2>
+<p style="margin: 0; font-size: 18px; line-height: 28px">Юридически значимый электронный документооборот с ЭП по алгоритмам ГОСТ 34.10-2001 и ГОСТ 34.10-2012. Документ может подписываться автоматически при создании и на этапах согласования и утверждения.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Подписание решений</h3>
+<p style="margin: 0; color: #66727F">Решение по рассмотрению протокола подписывается ЭП. Подпись формируется на основе содержимого: темы, краткого содержания, вложенных файлов.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Стандарты криптозащиты</h3>
+<p style="margin: 0; color: #66727F">Microsoft CryptoAPI и JCA. Российские (КриптоПро, ИнфоТеКС), белорусские (Авест, НТЦ «Контакт») и международные (RSA/SHA) средства криптозащиты.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Работа в браузерах</h3>
+<p style="margin: 0; color: #66727F">ЭП работает во всех распространённых браузерах при установленных модулях и плагинах стандартов криптозащиты.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding: 80px 24px; background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 800px">
+<h2 style="margin: 0; font-size: clamp(26px, 3vw, 32px); line-height: 1.25; font-weight: 700">Дополнительный функционал</h2>
+<p style="margin: 0; color: #66727F; font-size: 18px; line-height: 28px">Помимо базовых функций система предоставляет расширенный набор инструментов.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+<div style="background: #F5F7FA; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Мониторинг системы</h3>
+<p style="margin: 0; color: #66727F">Отображение текущего состояния компонентов системы.</p>
+</div>
+<div style="background: #F5F7FA; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Контроль сроков</h3>
+<p style="margin: 0; color: #66727F">Вспомогательные инструменты для соблюдения регламентных сроков проведения обсуждений.</p>
+</div>
+<div style="background: #F5F7FA; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Генерация отчётов</h3>
+<p style="margin: 0; color: #66727F">Формирование требуемых отчётов по заданным параметрам и начальным условиям.</p>
+</div>
+<div style="background: #F5F7FA; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-size: 20px; line-height: 28px; font-weight: 700">Аналитика</h3>
+<p style="margin: 0; color: #66727F">Инструменты для оптимизации процессов проведения обсуждений, запросов и другой типовой деятельности.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="tech" style="padding: 80px 24px; background: #F5F7FA">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<h2 style="margin: 0; font-size: clamp(26px, 3vw, 32px); line-height: 1.25; font-weight: 700">Технологические особенности</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border-radius: 16px; padding: 28px 32px; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 24px; line-height: 32px; font-weight: 700; color: #0D4CD3">PostgreSQL</p>
+<p style="margin: 0; color: #66727F">в качестве СУБД</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 28px 32px; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 24px; line-height: 32px; font-weight: 700; color: #0D4CD3">Исходный код</p>
+<p style="margin: 0; color: #66727F">поставляется вместе с системой</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 28px 32px; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 24px; line-height: 32px; font-weight: 700; color: #0D4CD3">Облако или свой сервер</p>
+<p style="margin: 0; color: #66727F">эксплуатация в облачной среде или на выделенном сервере заказчика</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 28px 32px; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 24px; line-height: 32px; font-weight: 700; color: #0D4CD3">Открытые технологии</p>
+<p style="margin: 0; color: #66727F">без закрытых и проприетарных решений</p>
+</div>
+</div>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px 48px">
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Соответствие требованиям законодательства РФ в области защиты информации и использования электронной подписи</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Удобный социально-ориентированный контент для пользователей</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Автоматизированное методологическое сопровождение: описания, подсветка полей, умные подсказки</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Хранение всех данных системы и данных, полученных из внешних информационных систем</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Все изменения регистрируются и хранятся в неизменяемом виде</span></li>
+<li style="display: flex; gap: 12px"><svg style="flex: none; margin-top: 1px" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0D4CD3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg><span>Изменение информации — только в соответствии с НПА и регламентом работы системы</span></li>
+</ul>
+</div>
+</section>
+
+<section id="help" style="padding: 80px 24px; background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px">
+<h2 style="margin: 0; font-size: clamp(26px, 3vw, 32px); line-height: 1.25; font-weight: 700">О разработчике</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<p style="margin: 0; color: #66727F; font-size: 14px; line-height: 20px">Компания</p>
+<p style="margin: 0; font-size: 18px; line-height: 28px; font-weight: 700">ООО «Хэдмейд»</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<p style="margin: 0; color: #66727F; font-size: 14px; line-height: 20px">Электронная почта</p>
+<a href="mailto:info@headmade.pro" style="font-size: 18px; line-height: 28px">info@headmade.pro</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<p style="margin: 0; color: #66727F; font-size: 14px; line-height: 20px">Телефон</p>
+<a href="tel:+78432599923" style="font-size: 18px; line-height: 28px">+7 (843) 259-99-23</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<p style="margin: 0; color: #66727F; font-size: 14px; line-height: 20px">Адрес</p>
+<p style="margin: 0; font-size: 18px; line-height: 28px">г. Казань, ул. Карла Маркса, д. 5, оф. 114</p>
+</div>
+</div>
+</div>
+</section>
+
+<footer style="padding: 32px 24px; background: #F5F7FA; border-top: 1px solid #E3E8EE">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; font-size: 14px; line-height: 20px; color: #66727F">
+<span style="font-weight: 700; color: #0B1F33">ИС «Мнение»</span>
+<span>Разработано в соответствии с <a href="https://guides.gosuslugi.ru/">правилами дизайна Единого портала Госуслуг</a></span>
+<a href="#top">Наверх</a>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
